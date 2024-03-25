@@ -1,0 +1,58 @@
+* text eol=lf
+*.bat text eol=crlf
+*.patch text eol=lf
+*.java text eol=lf
+*.gradle text eol=crlf
+*.png binary
+*.gif binary
+*.exe binary
+*.dll binary
+*.jar binary
+*.lzma binary
+*.zip binary
+*.pyd binary
+*.cfg text eol=lf
+*.py text eol=lf
+dalekmod1.16.4/assets/dalekmod/sounds/music/boss_dalek.ogg filter=lfs diff=lfs merge=lfs -text
+dalekmod1.16.4/assets/dalekmod/sounds/music/boss_time_lord.ogg filter=lfs diff=lfs merge=lfs -text
+dalekmod1.16.4/assets/dalekmod/sounds/music/disc_cyberwave.ogg filter=lfs diff=lfs merge=lfs -text
+dalekmod1.16.4/assets/dalekmod/sounds/music/skaro_1.ogg filter=lfs diff=lfs merge=lfs -text
+dalekmod1.16.4/assets/dalekmod/sounds/music/skaro_2.ogg filter=lfs diff=lfs merge=lfs -text
+dalekmod1.16.4/assets/dalekmod/sounds/music/skaro_3.ogg filter=lfs diff=lfs merge=lfs -text
+dalekmod1.16.4/assets/dalekmod/sounds/music/tardis_0.ogg filter=lfs diff=lfs merge=lfs -text
+dalekmod1.16.4/assets/dalekmod/sounds/music/tardis_1.ogg filter=lfs diff=lfs merge=lfs -text
+dalekmod1.16.4/assets/dalekmod/sounds/music/tardis_2.ogg filter=lfs diff=lfs merge=lfs -text
+dalekmod1.16.4/assets/dalekmod/sounds/music/title_screen_alt_a.ogg filter=lfs diff=lfs merge=lfs -text
+dalekmod1.16.4/assets/dalekmod/sounds/music/title_screen_alt_b.ogg filter=lfs diff=lfs merge=lfs -text
+dalekmod1.16.4/assets/dalekmod/sounds/music/title_screen.ogg filter=lfs diff=lfs merge=lfs -text
+dalekmod1.16.4/assets/dalekmod/textures/gui/panorama/panorama_0.png filter=lfs diff=lfs merge=lfs -text
+dalekmod1.16.4/assets/dalekmod/textures/gui/panorama/panorama_1.png filter=lfs diff=lfs merge=lfs -text
+dalekmod1.16.4/assets/dalekmod/textures/gui/panorama/panorama_2.png filter=lfs diff=lfs merge=lfs -text
+dalekmod1.16.4/assets/dalekmod/textures/gui/panorama/panorama_3.png filter=lfs diff=lfs merge=lfs -text
+test/assets/thedalekmod/call_to_arms.png filter=lfs diff=lfs merge=lfs -text
+test/assets/thedalekmod/models/mdl/players/1wtc_lego.mdl filter=lfs diff=lfs merge=lfs -text
+test/assets/thedalekmod/schematics/skaro/dalekcity.schm filter=lfs diff=lfs merge=lfs -text
+test/assets/thedalekmod/schematics/skaro/emperorship.schm filter=lfs diff=lfs merge=lfs -text
+test/assets/thedalekmod/schematics/tardis/2010_int.schm filter=lfs diff=lfs merge=lfs -text
+test/assets/thedalekmod/schematics/tardis/2013_int.schm filter=lfs diff=lfs merge=lfs -text
+test/assets/thedalekmod/schematics/tardis/dm_a_int.schm filter=lfs diff=lfs merge=lfs -text
+test/assets/thedalekmod/schematics/tardis/dm_b_int.schm filter=lfs diff=lfs merge=lfs -text
+test/assets/thedalekmod/schematics/tardis/dm_c_int.schm filter=lfs diff=lfs merge=lfs -text
+test/assets/thedalekmod/schematics/tardis/ed_interior.schm filter=lfs diff=lfs merge=lfs -text
+test/assets/thedalekmod/schematics/tardis/ger_tar.schm filter=lfs diff=lfs merge=lfs -text
+test/assets/thedalekmod/schematics/tardis/grandfather_interior.schm filter=lfs diff=lfs merge=lfs -text
+test/assets/thedalekmod/schematics/tardis/rgb_int.schm filter=lfs diff=lfs merge=lfs -text
+test/assets/thedalekmod/schematics/tardis/shalka_int.schm filter=lfs diff=lfs merge=lfs -text
+test/assets/thedalekmod/schematics/tardis/tempus_int.schm filter=lfs diff=lfs merge=lfs -text
+test/assets/thedalekmod/sounds/ambient/gallifrey_1.ogg filter=lfs diff=lfs merge=lfs -text
+test/assets/thedalekmod/sounds/ambient/gallifrey_2.ogg filter=lfs diff=lfs merge=lfs -text
+test/assets/thedalekmod/sounds/ambient/gallifrey_3.ogg filter=lfs diff=lfs merge=lfs -text
+test/assets/thedalekmod/sounds/ambient/mondas_2.ogg filter=lfs diff=lfs merge=lfs -text
+test/assets/thedalekmod/sounds/ambient/mondas_3.ogg filter=lfs diff=lfs merge=lfs -text
+test/assets/thedalekmod/sounds/songs/cybermen.ogg filter=lfs diff=lfs merge=lfs -text
+test/assets/thedalekmod/sounds/songs/daleks.ogg filter=lfs diff=lfs merge=lfs -text
+test/assets/thedalekmod/sounds/songs/dm_theme_20.ogg filter=lfs diff=lfs merge=lfs -text
+dmadditions-1.3.11/assets/dmadditions/sounds/records/rick_roll.ogg filter=lfs diff=lfs merge=lfs -text
+dmadditions-1.3.11/assets/dmadditions/textures/block/advent/tv_channels/intro.png filter=lfs diff=lfs merge=lfs -text
+dmadditions-1.3.11/assets/dmadditions/textures/gui/main/background/bg_1.png filter=lfs diff=lfs merge=lfs -text
+dmadditions-1.3.11/assets/dmadditions/textures/gui/main/background/bg_8.png filter=lfs diff=lfs merge=lfs -text
