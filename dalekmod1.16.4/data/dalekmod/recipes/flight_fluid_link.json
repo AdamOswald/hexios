@@ -12,6 +12,7 @@
 		}
 	],
 	"result": {
-		"item": "dalekmod:flight_fluid_link"
+		"item": "dalekmod:flight_fluid_link",
+		"count": 10
 	}
 }

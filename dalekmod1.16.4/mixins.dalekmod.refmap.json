@@ -16,6 +16,9 @@
     "com/swdteam/mixins/MovementInputMixin": {
       "tick": "Lnet/minecraft/util/MovementInputFromOptions;func_225607_a_(Z)V"
     },
+    "com/swdteam/mixins/BedBlockMixin": {
+      "use": "Lnet/minecraft/block/BedBlock;func_225533_a_(Lnet/minecraft/block/BlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;Lnet/minecraft/util/math/BlockRayTraceResult;)Lnet/minecraft/util/ActionResultType;"
+    },
     "com/swdteam/mixins/ClientPlayBiomeMixin": {
       "handleLevelChunk(Lnet/minecraft/network/play/server/SChunkDataPacket;)V": "Lnet/minecraft/client/network/play/ClientPlayNetHandler;func_147263_a(Lnet/minecraft/network/play/server/SChunkDataPacket;)V"
     },
@@ -50,6 +53,9 @@
       },
       "com/swdteam/mixins/MovementInputMixin": {
         "tick": "Lnet/minecraft/util/MovementInputFromOptions;func_225607_a_(Z)V"
+      },
+      "com/swdteam/mixins/BedBlockMixin": {
+        "use": "Lnet/minecraft/block/BedBlock;func_225533_a_(Lnet/minecraft/block/BlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;Lnet/minecraft/util/math/BlockRayTraceResult;)Lnet/minecraft/util/ActionResultType;"
       },
       "com/swdteam/mixins/ClientPlayBiomeMixin": {
         "handleLevelChunk(Lnet/minecraft/network/play/server/SChunkDataPacket;)V": "Lnet/minecraft/client/network/play/ClientPlayNetHandler;func_147263_a(Lnet/minecraft/network/play/server/SChunkDataPacket;)V"

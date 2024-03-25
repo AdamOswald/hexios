@@ -4,7 +4,25 @@
   "package": "com.swdteam.mixins",
   "refmap": "mixins.dalekmod.refmap.json",
   "required": true,
-  "mixins": ["ItemMixin", "CompassItemMixin", "CreeperEntityMixin", "SheepEntityMixin", "ChickenEntityMixin", "IronGolemEntityMixin"],
-  "client": ["ModelBakeryMixin", "LightMapMixin", "GameRendererMixin", "MinecraftMixin", "ClientPlayBiomeMixin", "RenderPlayerMixin", "MovementInputMixin", "ClientPlayerRendererMixin"],
-  "server": ["EntityMixin"]
+  "mixins": [
+    "BedBlockMixin",
+    "ChickenEntityMixin",
+    "CompassItemMixin",
+    "CreeperEntityMixin",
+    "IronGolemEntityMixin",
+    "ItemMixin",
+    "SheepEntityMixin"
+  ],
+  "client": [
+    "ClientPlayBiomeMixin",
+    "ClientPlayerRendererMixin",
+    "GameRendererMixin",
+    "LightMapMixin",
+    "MinecraftMixin",
+    "ModelBakeryMixin",
+    "MovementInputMixin",
+    "RenderPlayerMixin"
+  ],
+  "server": [
+    "EntityMixin"]
 }
