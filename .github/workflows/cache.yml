@@ -28,8 +28,8 @@
     # Enables caching of ~/.gradle/caches/modules-*
     save-gradle-dependencies-cache: # optional, default is true
     # Activates only the caches that are relevant for executing gradle command.
-#This is helpful when build job executes multiple gradle commands sequentially.
-#Then the caching is implemented in the very first one, and the subsequent should be marked
+    # This is helpful when build job executes multiple gradle commands sequentially.
+    # Then the caching is implemented in the very first one, and the subsequent should be marked
     execution-only-caches: true
     # Activates a remote cache that proxies requests to GitHub Actions cache
     remote-build-cache-proxy-enabled: # optional, default is true
