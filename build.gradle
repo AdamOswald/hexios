@@ -194,7 +194,7 @@ project(':forge') {
         def offset = desc.remove(desc.size() - 1)
         def tag = desc.join('-')
         def branch = grgit.branch.current().name
-        if (branch in ['master', 'HEAD', MC_VERSION, MC_VERSION + '.0'])
+        if (branch in ['main', 'HEAD', MC_VERSION, MC_VERSION + '.0'])
             branch = null
         if (branch != null && branch.endsWith('.x') && MC_VERSION.startsWith(branch.substring(0, branch.length() - 2))) //1.13.x
             branch = null
