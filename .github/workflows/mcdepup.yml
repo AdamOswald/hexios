@@ -1,4 +1,4 @@
-            - name: MC-DepUp
+- name: MC-DepUp
   # You may pin to the exact commit or the version.
   # uses: LucunJi/mc-depup@84a57e2e0ff9b27bb16c99e1b5afec7ee5f0cca7
   uses: LucunJi/mc-depup@v0.1.2
