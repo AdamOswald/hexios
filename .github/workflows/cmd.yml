@@ -28,7 +28,6 @@
     # Whether to restore only if exact match, default to 'false'
     configuration-cache-exact: # optional
 
-# .github/workflows/gradle-build.yml
 name: Run Gradle on PR
 on: pull_request
 jobs:
