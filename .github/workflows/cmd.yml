@@ -1,4 +1,4 @@
-            - name: Gradle CMD
+- name: Gradle CMD
   # You may pin to the exact commit or the version.
   # uses: puredevops/sample-action@853533acaf71932caaf6ff3232ad304e84b31fef
   uses: puredevops/sample-action@v1.3
