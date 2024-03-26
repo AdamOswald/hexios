@@ -1,0 +1,46 @@
+name: Gradle Dependency Submission
+  # You may pin to the exact commit or the version.
+  # uses: mikepenz/gradle-dependency-submission@f9bd3bb4b3b348357f775517814f954ded2badd1
+  uses: mikepenz/gradle-dependency-submission@v1.0.0
+  with:
+    # GitHub Personal Access Token (PAT). Defaults to PAT provided by Action runner
+    token: # optional, default is ${{ github.token }}
+    # Describes if the action will use `./gradlew` to retrieve the dependencies. Alternative `gradle`
+    use-gradlew: # default is true
+    # Path to the root of the project to extract dependencies for
+    gradle-project-path: # default is 
+    # The module for which to resolve dependencies. E.g. `:app`
+    gradle-build-module: # default is 
+    # The configuration used to retrieve all dependencies from. Java projects usually use `compileClasspath`
+    gradle-build-configuration: # default is 
+    # Optional module based configuration mapping. This is a multi line input whereas each line can contain mappings in the format of: `:module-name|configurationName`
+    gradle-build-configuration-mapping: # optional
+    # Path to the file containing the dependency specification. Relative to the provided project-path. By default it will retrieve this via gradle.
+    gradle-dependency-path: # optional
+    # Defines how the action handles submodules (sub projects). "IGNORE", "COMBINED", "INDIVIDUAL". Default: "IGNORE"
+    sub-module-mode: # optional, default is IGNORE
+    # Optional mode to also submit the `buildEnvironment` to the dependency submission API. This will execute the `buildEnvironment` task on the root module.
+    include-build-environment: # optional, default is false
+    # Optional setting to enable an action failure in case any of the dependencies can not be parsed. Default: `false`.
+    fail-on-error: # optional, default is false
+    # Optional correlator string to submit to GitHub to identify the dependency submission.  Defaults to generating based on gradle-build-module and gradle-build-configuration.
+    correlator: # optional, default is 
+    # Enables support for gradle versions below 7.5. Note: If enabled, all properties are read by the action as `--property` was only introduced in Gradle 7.5 or newer.
+    legacy-support: # optional, default is false
+
+
+name: Dependency Submission
+
+on: [ push ]
+
+permissions:
+  contents: write
+
+jobs:
+  dependency-submission:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout sources
+      uses: actions/checkout@v4
+    - name: Generate and submit dependency graph
+      uses: gradle/actions/dependency-submission@v3
