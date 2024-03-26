@@ -7,19 +7,19 @@
 
     config_path: # optional, default is ./.github/modding-dependencies.yml
     # 'Update patch version of Minecraft'
-'true | false'
+'true'
 
     update_mc_patch: # optional, default is true
     # 'Update only when Minecraft updates (depends on update_mc_patch)'
-'true | false'
+'false'
 
     update_only_with_mc: # optional
     # 'Allow the update of any dependency to fail'
-'true | false'
+'false'
 
     tolerable: # optional
     # 'The new configuration is not written to the file'
-'true | false'
+'false'
 
     dry_run: # optional
           
