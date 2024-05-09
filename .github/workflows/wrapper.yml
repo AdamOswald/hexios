@@ -1,5 +1,5 @@
 name: Gradle Wrapper Validation
-  uses: gradle/wrapper-validation-action@v2.1.2
+  uses: gradle/wrapper-validation-action@v3.3.2
   with:
     # Minimum number expected gradle-wrapper.jar files found in the repository. Non-negative number. Higher number is useful in monorepos where each project might have their own wrapper.
     min-wrapper-count: # optional, default is 1
@@ -15,4 +15,4 @@ name: Gradle Wrapper Validation
       runs-on: ubuntu-latest
       steps:
         - uses: actions/checkout@v4
-        - uses: gradle/wrapper-validation-action@v2
+        - uses: gradle/wrapper-validation-action@v3

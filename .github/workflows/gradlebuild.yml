@@ -1,7 +1,7 @@
 - name: Gradle Build Action
   # You may pin to the exact commit or the version.
   # uses: gradle/gradle-build-action@29c0906b64b8fc82467890bfb7a0a7ef34bda89e
-  uses: gradle/gradle-build-action@v3.1.0
+  uses: gradle/gradle-build-action@v3.3.2
   with:
     # Gradle version to use. If specified, this Gradle version will be downloaded, added to the PATH and used for invoking Gradle.
     gradle-version: # optional
