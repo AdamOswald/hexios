@@ -1,5 +1,5 @@
  - name: Java Info Action
-   uses: YunaBraska/java-info-action@1.12.1-rc.56
+   uses: YunaBraska/java-info-action@1.13.2
 
 - name: Java Info Action
   # You may pin to the exact commit or the version.
